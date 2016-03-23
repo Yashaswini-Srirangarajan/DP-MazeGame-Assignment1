@@ -9,7 +9,7 @@ public class Player
 {	
 	public static void main(String args[]) throws IOException
 	{
-		BufferedReader br=new BufferedReader(new FileReader("C:\\Users\\Yashaswini\\Documents\\4th SEM\\Design pattern\\CreateMaze.txt"));
+		BufferedReader br=new BufferedReader(new FileReader("CreateMaze.txt"));
 		String line="";
 		String[] temp_ReadLine_String;
 		int[] temp_ReadLine_int;

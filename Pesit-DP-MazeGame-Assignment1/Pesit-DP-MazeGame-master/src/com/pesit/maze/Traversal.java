@@ -13,11 +13,11 @@ public class Traversal
 	public void TraverseMaze(Maze  myMaze) throws NumberFormatException, IOException
 	{
 		MazeFactory Factory=new MazeFactory();
-		File fout = new File("C:\\Users\\Yashaswini\\Documents\\4th SEM\\Design pattern\\Destinations.txt");
+		File fout = new File("Destinations.txt");
 		FileOutputStream fos = new FileOutputStream(fout);
 	 
 		 BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(fos));
-		 BufferedReader br=new BufferedReader(new FileReader("C:\\Users\\Yashaswini\\Documents\\4th SEM\\Design pattern\\TraverseMaze.txt"));
+		 BufferedReader br=new BufferedReader(new FileReader("TraverseMaze.txt"));
 		 String line="";
 		 String[] temp_ReadLine_String;
 		 int[] temp_ReadLine_int;
